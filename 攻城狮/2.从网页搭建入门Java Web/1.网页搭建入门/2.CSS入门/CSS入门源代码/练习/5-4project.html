@@ -1,0 +1,94 @@
+<!-- 不使用三行两列布局而做出来的 -->
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>三行两列布局</title>
+	<style type="text/css">
+		html,body{
+			margin:0px;
+		}
+		.div1{
+			height:500px;
+			background-color: #ADD8E6;
+		}
+		div img{
+			margin:142px 155px;
+		}
+		footer{
+			background-color: #DDA0DD;
+		}
+		footer img{
+			margin:50px 120px;
+		}
+	</style>
+</head>
+<body>
+	<div class="div1">
+		<img src="http://climg.mukewang.com/58c0f808000129a303600215.jpg" />
+		<img src="http://climg.mukewang.com/58c0f819000198a703600214.jpg" />
+	</div>
+	<footer>
+		<img src="http://climg.mukewang.com/58c0f81d0001fe4402000060.jpg" />
+		<img src="http://climg.mukewang.com/58c0f8220001dfce02000060.jpg" />
+		<img src="http://climg.mukewang.com/58c0f8780001c74602000060.jpg" />
+	</footer>
+</body>
+</html> -->
+
+
+
+<!-- 三行两列布局 -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>三行两列布局</title>
+	<style type="text/css">
+		html,body{
+			margin:0;
+		}
+		header{
+        	background-color:#000;
+        	height:50px;
+    	}
+		.div1{
+			/*有设置高度就不清除浮动,仍然可以显示，但会影响下一部分内容*/
+			height:500px;
+			background-color: #ADD8E6;
+			overflow:hidden;/*明明有高度，不清除浮动也会影响footer内容？？？*/
+		}
+		nav{
+			float: left;
+			margin:150px 155px;/*设置成内外边距都一样？区别在哪？是相对于谁的*/
+		}
+		article{
+			float:right;
+			padding:150px 155px;
+		}
+		footer{
+			background-color: #DDA0DD;
+		}
+		footer img{
+			margin:50px 120px;
+		}
+	</style>
+</head>
+<body>
+	<header></header>
+	<div class="div1">
+		<nav>
+			<img src="http://climg.mukewang.com/58c0f808000129a303600215.jpg" />
+		</nav>
+		<article>
+			<img src="http://climg.mukewang.com/58c0f819000198a703600214.jpg" />
+		</article>
+
+	</div>
+	<footer>
+		<img src="http://climg.mukewang.com/58c0f81d0001fe4402000060.jpg" />
+		<img src="http://climg.mukewang.com/58c0f8220001dfce02000060.jpg" />
+		<img src="http://climg.mukewang.com/58c0f8780001c74602000060.jpg" />
+	</footer>
+</body>
+</html> 

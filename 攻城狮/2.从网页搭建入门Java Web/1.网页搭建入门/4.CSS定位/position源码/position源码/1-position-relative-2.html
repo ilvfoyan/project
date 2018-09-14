@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>position-relative</title>
+    <link rel="stylesheet" href="./reset.css">
+    <style>
+        /*让B叠加到A上*/
+        .block {
+            width: 80px;
+            height: 80px;
+            line-height: 80px;
+            text-align: center;
+            border: 2px solid blue;
+            float:left;
+            /*若再分别给A、B设置z-index就可以让A叠加到B上*/
+            /*z-index:9;*/
+        }
+        .block:nth-child(2){
+            position:relative;
+            border-color: red;
+            top:0px;
+            left:-80px;
+            /*z-index:1;*/
+        }
+    </style>
+</head>
+<body>
+    <div class="block">
+        A
+    </div>
+    <div class="block">
+        B
+    </div>
+    <div class="block">
+        C
+    </div>
+</body>
+</html>

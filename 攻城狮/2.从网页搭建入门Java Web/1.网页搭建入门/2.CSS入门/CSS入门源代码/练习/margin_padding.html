@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>测试内外边距</title>
+	<style>
+		header{
+			background-color:#000;
+			height: 100px;
+		}
+		#s1{
+			margin:40px;
+			padding:50px;
+			background-color: blue;
+		}
+		#s2{
+			margin:40px;
+			/*padding:50px;*/
+			background-color: orange;
+		}
+		div{
+			background-color:red;
+			height:400px;
+			/*margin:40px;
+			padding:50px;*/
+		}
+	</style>
+</head>
+<body>
+	<header></header>
+	<div>
+		<span id="s1">第一个span</span>
+		<span id="s2">第二个span</span>
+	</div>
+</body>
+</html>

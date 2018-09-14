@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>position-absolute</title>
+    <link rel="stylesheet" href="./reset.css">
+    <style>
+        /*让B脱离常规流*/
+        .block {
+            width: 80px;
+            height: 80px;
+            line-height: 80px;
+            text-align: center;
+            border: 2px solid blue;
+        }
+        .block:nth-child(2){
+            position:absolute;
+            border-color: red;
+            /*这是相对于整个网页窗口的top和left*/
+            top:0;
+            left:0;
+            right:0;
+            bottom:0;
+        }
+        body{
+            margin:24px;
+            padding:30px;
+        }
+        .div1{
+            padding:24px;
+            margin:30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <div class="block">
+            A
+        </div>
+        <div class="block">
+            B
+        </div>
+        <div class="block">
+            C
+        </div>
+    </div>
+</body>
+</html>

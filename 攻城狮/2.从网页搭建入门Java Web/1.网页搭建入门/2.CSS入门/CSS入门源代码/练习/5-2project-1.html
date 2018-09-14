@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>5-2</title>
+    <style type="text/css">
+        html,body{
+            margin:0;
+        }
+        /*分为上中下三块1,2,3*/
+        #div{
+            height: 760px;    
+        }
+        #div1{
+            height: 15%;
+            background-color: #000000;
+        }
+        .logo{
+            vertical-align: middle;
+        }
+        .headTable{
+            font-size: 20px;
+            float: right;
+            height: 100%;
+            color: white;
+            padding: 10px;
+        }
+        #div2{
+            height: 70%;
+            background-color: lightblue;
+        }
+ 
+        /*2中分为左和右，以line为区分*/
+        .left{
+            float: left;
+            width: 59%;
+            height: 100%;
+        }
+        .right{
+            width: 40%;
+            float: left;
+            height: 100%;
+        }
+        .line{
+            /*设置左外边距为59%*/
+            width: 1%;
+            height: 100%;
+            float: left;
+            background-color: orange;
+        }
+ 
+        /*左边部分分为2块,leftArea rightArea*/
+        .leftArea{
+            width: 50%;
+            height: 100%;
+            float: left;
+        }
+        .rightArea{
+            width: 50%;
+            height: 100%;
+            float: right;
+        }
+        #th{
+            font-size: 18px;
+            font-weight: 5px;
+        }
+        .leftTable{
+            text-align: left;
+            font-size: 15px;
+            margin-left: 30%;
+            margin-top: 30%;
+        }
+        span {
+            background: lightcoral;
+        }
+        .rightTable{
+            font-size: 15px;
+            margin-left: 10%;
+            margin-top: 30%;
+            text-align: center;
+        }
+        #div3{
+            height: 15%;
+            background-color: #000000;
+        }
+        .login{
+            text-align: left;
+            margin-left: 20%;
+            margin-top: 20%;
+            font-size: 18px;
+            padding: 5px;
+        }
+        tr td input,button{
+            width: 230px;
+            height: 40px;
+        }
+        tr td button{
+            background: red;
+        }
+        .footer{
+            color: #ffffff;
+            text-align: center;
+            margin: auto;
+            padding: 20px;
+        }
+        .clear{
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div id="div">
+        <div id="div1">
+            <th class="logo">
+                <img src="http://climg.mukewang.com/59093e9c00016ce303000100.png">
+            </th>
+            <table cellpadding="15" class="headTable">
+                <tr>
+                    <td>课程</td>
+                    <td>职业路径</td>
+                    <td>实战</td>
+                    <td>猿问</td>
+                    <td>手记</td>
+                </tr>
+            </table>
+        </div>
+        <div id="div2">
+            <div class="left">
+                <div class="leftArea">
+                    <table cellpadding="7" class="leftTable">
+                        <th id="th">课程推荐</th>
+                        <tr>
+                            <td>
+                                <span>职业路径</span>
+                            </td>
+                            <td>HTML5与CSS3实现动态网页</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span>职业路径</span>
+                            </td>
+                            <td>零基础入门Android语法与界面</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span>职业路径</span>
+                            </td>
+                            <td>ios基础语法与常用控件</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span>职业路径</span>
+                            </td>
+                            <td>PHP入门开发</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span>职业路径</span>
+                            </td>
+                            <td>JAVA入门开发</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="rightArea">
+                    <table cellpadding="7" class="rightTable">
+                        <th id="th">相关课程</th>
+                        <tr>
+                            <td colspan="2">HTML</td>
+                            <td colspan="2">CSS</td>
+                            <td colspan="2">JavaScript</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">HTML5</td>
+                            <td colspan="2">CSS3</td>
+                            <td colspan="2">Jquery</td>
+                        </tr>
+                        <tr  cellpadding="5px">
+                            <td colspan="3">移动端基础</td>
+                            <td colspan="3">移动端APP开发</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div  class="right">
+                <table cellpadding="10px;" class="login">
+                    <th>登录</th>
+                    <tr><td>
+                        <input width="100px" height="20px" type="tet" name="" placeholder="请输入登录邮箱/手机号">
+                    </td></tr>
+                    <tr><td>
+                        <input type="password" name="" placeholder="6-16位密码，区分大小写，不能用空格">
+                    </td></tr>
+                    <tr><td>
+                        <button type="submit">登录</button>
+                    </td></tr>
+                </table>    
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div id="div3">
+            <footer id="foot">
+                <table cellspacing="20px" class="footer">
+                    <td>网站首页</td>
+                    <td>企业合作</td>
+                    <td>人才招聘</td>
+                    <td>联系我们</td>
+                    <td>常见问题</td>
+                    <td>友情链接</td>
+                </table>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

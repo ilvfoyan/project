@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>change-to-flex</title>
+    <link rel="stylesheet" href="./reset.css">
+    <style>
+        .block {
+            /*position: static;*/
+            /*top:10px;*/
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            border: 2px solid blue;
+            /*box-sizing: border-box;*/
+        }
+        /*两个相邻元素设置外边距，那么最终外边距=两者外边距中最大的*/
+        .block:nth-child(1){
+            margin:20px;
+            border-color: green;
+        }
+        .block:nth-child(2){
+            margin:10px;
+            border-color:red;
+        }
+    </style>
+</head>
+<body>
+    <div class="block">
+        A
+    </div>
+    <div class="block">
+        B
+    </div>
+    <div class="block">
+        C
+    </div>
+    <div class="block">
+        D
+    </div>
+</body>
+</html>

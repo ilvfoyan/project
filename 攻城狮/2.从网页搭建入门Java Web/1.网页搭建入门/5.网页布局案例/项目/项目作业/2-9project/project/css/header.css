@@ -1,0 +1,46 @@
+/*
+*
+*头部的样式
+*
+*/
+header{
+	width:100%;
+	/*height:72px;*/
+	background-color: #07cbc9;
+	text-align: center;
+	overflow: hidden;
+	/*添加固定定位*/
+	position: fixed;
+	z-index: 100;
+
+}
+header .head-left{
+	width:260px;
+	height:48px;
+	float:left;
+	margin:12px 24px;
+}
+header .head-right ul{
+	float:right;
+	width:478px;
+	height:72px;
+	line-height:72px;
+	margin:0 24px;
+}
+header .head-right ul li{
+	list-style: none;
+	float:left;
+	padding:0 16px;
+	font-size:12px;
+	font-family: '微软雅黑';
+}
+header .head-right ul a{
+	text-decoration:none;
+	color:#fff;
+	/*width:168px;
+	height:72px;*/
+}
+/*如何实现鼠标悬停时背景变黑？？？ hover不单单是针对a标签的*/
+header .head-right ul li:hover{
+	background-color: #000;
+}

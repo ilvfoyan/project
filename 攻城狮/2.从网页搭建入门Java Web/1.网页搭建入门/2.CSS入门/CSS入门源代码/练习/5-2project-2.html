@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <style type="text/css">
+    /*此处写代码*/
+    header{
+        background-color:black;
+        height:100px;
+        
+    }
+    a{
+      text-decoration:none;
+      margin:40px;
+    }
+    .logo{
+        height:100px;
+        float:left;
+        margin: 0;
+    }
+    #headtable{
+      color:white;
+      float:right;
+    }
+    #line {
+  height: 100%;
+  width: 0.5%;
+  background-color: yellow;
+  float: right;
+}
+    #headtr{
+       vertical-align: middle;
+    }
+    div{
+      height:700px;
+    }
+    nav{
+      height:100%;
+      width:33%;
+      float:left;
+      background-color: lightblue;
+    }
+    span input{
+      background-color: lightcoral;
+      width: 250px;
+    }
+    input {
+  width: 250px;
+  height: 45px;
+  margin-top: 30px;
+}
+    #navtable{
+      margin-top:100px;
+      margin-left:150px;
+    }
+    #asideform{
+      margin-top:150px;
+      margin-left:150px;
+    }
+    #articletable{
+      margin-top:150px;
+      margin-left:150px;
+    }
+    .navtd{
+      background-color: lightcoral;
+      margin: 20px;
+    }
+    aside{
+      height:100%;
+      width:33%;
+      float:right;
+ 
+      background-color: lightblue;
+    }
+    article{
+      float:left;
+      height: 100%;
+      width:33.5%;
+      background-color: lightblue;
+    }
+ 
+    table,tr,td {
+  padding: 15px;
+}
+    #bottom{
+      background-color: black;
+      height: 100px;
+    }
+    #bottomtable{
+      margin: 0px auto;
+    }
+  </style>
+</head>
+<body>
+  <!-- 此处写代码 -->
+  <header>
+      <p class="logo">
+          <img src="http://climg.mukewang.com/59093e9c00016ce303000100.png">
+      </p>
+ 
+      <table id="headtable">
+          <tr id="headtr">
+            <td>课程</td>
+            <td>职业路径</td>
+            <td>实战</td>
+            <td>猿问</td>
+            <td>笔记</td>
+          </tr>    
+      </table>
+  </header>
+  <div>
+      <nav>
+        <table id="navtable">
+          <th id="navth">课程推荐</th>
+          <tr>
+            <td class="navtd">职业路径</td>
+            <td>HTML5与CSS3实现动态网页</td>
+          </tr>
+          <tr>
+            <td class="navtd">职业路径</td>
+            <td>零基础入门</td>
+          </tr>
+          <tr>
+            <td class="navtd">职业路径</td>
+            <td>IOS</td>
+          </tr>
+          <tr>
+            <td class="navtd">职业路径</td>
+            <td>PHP</td>
+          </tr>
+          <tr>
+            <td class="navtd">职业路径</td>
+            <td>JAVA入门开发</td>
+          </tr>
+        </table>
+      </nav>
+      <aside>
+        <form action="#" id="asideform">
+          <form method="get">
+        <h2>登录</h2>
+        <input type="text" maxlength="16" placeholder="请输入登录邮箱/手机号"/>
+        <br>
+        <input type="password" maxlength="16" placeholder="6-16位密码，区分大小写，不能用空格"/>
+        <br>
+        <span><input type="submit" value="登录" /></span>
+      </form>
+        </form>
+      </aside>
+      <article>
+        <table id="articletable">
+          <th id="articleth">相关课程</th>
+          <tr>
+            <td>HTML</td>
+            <td>CSS</td>
+            <td>JavaScript</td>
+          </tr>
+          <tr>
+            <td>HTML5</td>
+            <td>CSS3</td>
+            <td>Jquery</td>
+          </tr>
+          <tr>
+            <td>职业路径</td>
+            <td>IOS</td>
+          </tr>
+           
+        </table>
+      </article>
+      <div id="line"></div>
+  </div>
+   
+  <div id="bottom">
+    <table id="bottomtable">
+      <tr>
+        <td>
+          <a href="#" class="blj">网站首页</a>
+        </td>
+        <td>
+          <a href="#" class="blj">企业合作</a>
+        </td>
+        <td>
+          <a href="#" class="blj">人才招聘</a>
+        </td>
+        <td>
+          <a href="#" class="blj">联系我们</a>
+        </td>
+        <td>
+          <a href="#" class="blj">常见问题</a>
+        </td>
+        <td>
+          <a href="#" class="blj">友情提示</a>
+        </td>
+ 
+ 
+      </tr>
+    </table>
+  </div>
+</body>
+</html>

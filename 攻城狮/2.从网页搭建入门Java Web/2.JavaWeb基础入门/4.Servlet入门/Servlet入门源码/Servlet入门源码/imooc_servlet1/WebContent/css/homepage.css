@@ -1,0 +1,237 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	height: 80px;
+}
+
+header .head-left img {
+	float: left;
+	width: 80px;
+	height: 80px padding-left:36px;
+}
+
+header .head-left {
+	float: left;
+}
+
+#div1 {
+	padding-left: 12px;
+	float: left;
+	width: 100%;
+}
+
+.user {
+	float: left;
+	magin: 12px;
+	font-size: 12px;
+}
+
+.time {
+	float: left;
+}
+
+.clear {
+	clear: both;
+}
+
+#div1 button {
+	float: left;
+	width: 50px;
+	margin-right: 24px;
+	padding: 6px;
+	background-color: #428bca;
+	border-color: #357ebd;
+	color: #fff;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px; /* future proofing */
+	-khtml-border-radius: 10px; /* for old Konqueror browsers */
+	text-align: center;
+	vertical-align: middle;
+	border: 1px solid transparent;
+	opacity: 0.5;
+	font-weight: 900;
+	font-size: 16px;
+}
+
+.out {
+	text-decoration: none;
+	margin-left: 12px;
+}
+
+#div2 {
+	height: 500px;
+	background-color: #C6E2FF;
+}
+
+nav {
+	float: left;
+	width: 150px;
+	height: 100%;
+	text-align: center;
+}
+
+.table{
+	text-align:center;
+}
+aside {
+	/*margin-left: 150px;*/
+	overflow: hidden;
+	height: 100%;
+	border-left: 2px solid #ABABAB;
+	padding-left: 5px;
+}
+
+aside .d {
+	display: grid;
+	grid-template-columns: 200px 50px 100px;
+	grid-template-rows: 100px 30px;
+}
+
+nav table {
+	width: 150px;
+}
+
+nav table td {
+	padding: 3px;
+}
+
+.tr-td1 {
+	font-size: 16px;
+	font-weight: bold;
+	padding: 12px;
+	text-align: left top;
+}
+
+.choose {
+	float: left;
+	/* width: 65px; */
+	height: 14px;
+	position: relative;
+	/* margin-left: -3px; */
+}
+
+form input {
+	width: 150px;
+}
+
+.shenpi {
+	float: right;
+	margin:0 24px;
+	color: #fff;
+}
+
+.shenpi button {
+	width: 50px;
+	padding:6px;
+	background-color: #428bca;
+	border-color: #357ebd;
+	color: #fff;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px; /* future proofing */
+	-khtml-border-radius: 10px; /* for old Konqueror browsers */
+	text-align: center;
+	vertical-align: middle;
+	border: 1px solid transparent;
+	font-weight: 900;
+	font-size: 16px;
+}
+
+table {
+	font-size: 12px;
+	text-align: center;
+}
+
+.td3 {
+	font-weight: bold;
+}
+
+.table2 .td1 input {
+	width: 151px;
+}
+
+.table2 .date input {
+	width: 150px;
+}
+
+.checkBox{
+	width: 125px;
+	float: left;
+	/* position:relative;
+    	left:60px; */
+}
+
+#table1 {
+	font-size: 16px;
+	border: 1px solid #ABABAB;
+	border-collapse: collapse;
+}
+
+.tr1 td, th {
+	margin: 0 auto;
+	padding: 6px;
+	border: 1px solid #ABABAB;
+	text-align: center;
+}
+/*aside table{
+        margin-left:380px;
+        margin-top:30%;
+    }*/
+header span {
+	color: #fff;
+	font-size: 12px;
+	margin: 12px;
+	text-align: right;
+}
+
+.table2 .search_button{
+	padding-left:24px;
+}
+
+.table2 .search_button .linkbutton{
+	font-size:18px;
+	/* margin-left:12px; */
+}
+
+.table2 .search_button a:link{
+	
+}
+
+.table2 .search_button a:hover{
+	text-decoration:none;
+	color:#9693ff;
+}
+
+.table2 .search_button a:active{
+	color:#87CEFA;
+}
+
+.table2 .searvh_button a:visited{
+	color:#337ab7;
+	text-decoration:none;
+}
+footer {
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+}
+
+footer span {
+	color: #fff;
+	font-size: 12px;
+}
+
+table{ 
+font-size: 16px; 
+}
+
+
+/* Jqgrid */  
+.ui-jqgrid .ui-jqgrid-title{font-size:24px;} /*修改grid标题的字体大小*/  
+.ui-jqgrid-sortable {font-size:18px; } /*修改列名的字体大小*/  
+/* .ui-widget-content .jqgrow .ui-row-ltr {font-size:16px; font-family:"宋体"} 修改表格内容字体,不起作用  
+.test  {font-size:22px; font-family:"宋体"}   */

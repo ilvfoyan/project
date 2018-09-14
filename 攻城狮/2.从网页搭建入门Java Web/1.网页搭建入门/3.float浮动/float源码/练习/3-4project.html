@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>3-4编程练习</title>
+	<style>
+		.div1{
+			border:1px dotted gray;
+			margin:0 auto;/*上下外边框不是为零吗怎么显示还是有空白？？？因为有body*/
+			width:870px;/*24+240+24+24+240+24+24+240+24=144+720=864???主要还包括边框宽度2+2+2=6，所以总宽度应该为870*/
+			overflow:hidden;
+			top:10px;
+		}
+		/*考虑下如何使图像之间距离跟图像跟div边框距离一致？？？可以给这些图片只设置左边，上边，下边的外边距，并适当调整好.div1的宽度*/
+		.div1 div{
+			border:1px solid gray;
+			width:240px;
+			margin:24px;
+			/*将margin值分别设置，并将div1的宽度width设置成826px这样就可以使最右边的宽为24px*/
+			/*margin-top: 24px;
+ 			margin-right: 0px;
+			margin-bottom: 24px;
+			margin-left: 24px;*/
+
+		}
+		header div{
+			float:left;
+
+		}
+		footer div{
+			float:left;
+		}
+	</style>
+</head>
+<body>
+	<div class="div1">
+		<header>
+			<div class="div2">
+				<img src="http://climg.mukewang.com/590fe9770001e63102400135.jpg">
+				<span>欢迎来到慕课网学习新知识！</span>
+			</div>
+			<div class="div3">
+				<img src="http://climg.mukewang.com/590fe97d00011bda02400135.jpg">
+				<span>欢迎来到慕课网学习新知识！</span>
+			</div>
+			<div class="div4">
+				<img src="http://climg.mukewang.com/590fe982000150ba02400135.jpg">
+				<span>欢迎来到慕课网学习新知识！</span>
+			</div>
+		</header>
+		<footer>
+			<div class="div5">
+				<img src="http://climg.mukewang.com/590fe9770001e63102400135.jpg">
+				<span>欢迎来到慕课网学习新知识！</span>
+			</div>
+			<div class="div6">
+				<img src="http://climg.mukewang.com/590fe97d00011bda02400135.jpg">
+				<span>欢迎来到慕课网学习新知识！</span>
+			</div>
+			<div class="div7">
+				<img src="http://climg.mukewang.com/590fe982000150ba02400135.jpg">
+				<span>欢迎来到慕课网学习新知识！</span>
+			</div>
+		</footer>
+	</div>
+</body>

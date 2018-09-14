@@ -1,0 +1,223 @@
+/*
+*
+*主体部分的第二部分的顶部的样式
+*
+*/
+.main .about{
+	width:100%;
+	/*height: 500px;*/
+}
+.main .about .about-top{
+	margin-top: 12px;
+}
+.main .about .about-top .top-title{
+	font-size: 36px;
+	text-align: center;
+	font-weight: bolder;
+}
+/*除了使用<center><hr></center>外，有什么好办法让hr居中？？？跟文本居中一样，设置margin：12px auto;*/
+.main .about .about-top hr{
+	margin:12px auto;
+	height: 1px;
+	background-color: #07cbc9;
+	width:24px;
+}
+.main .about .about-top .top-con{
+	text-align: center;
+	color:gray;
+}
+
+/*
+*
+主体部分的第二部分的中部的样式
+*
+*/
+.main .about .about-center{
+	margin:24px 0;
+	position:relative;
+	width:100%;
+	height:374px;
+}
+.main .about .about-center .bg{
+	width:560px;
+	height:374px;
+	margin: 0 auto;
+	z-index:1;
+}
+/*图片无法设置margin:0 auto来居中？？？只能设其父元素div的内容居中?这条语句主要是针对元素的子元素的*/
+.main .about .about-center .bg img{
+	width:560px;
+	height: 374px;
+}
+.main .about .about-center .word{
+	float:left;
+	/*设置relative导致有空白*/
+	/* position:relative;
+	top:-318px;
+	left:200px; */
+	position:absolute;
+	top:50px;
+	left:200px; 
+}
+.main .about .about-center .word .word-about{
+	font-size:30px;
+	width:200px;
+	margin:12px;
+}
+/*怎么设置其背景半透明而不影响字体颜色跟按钮，如果设置遮罩层却又会影响字体颜色跟按钮？？？可以给它加背景颜色*/
+.main .about .about-center .word .word-con{
+	width:240px;
+	height: 160px;
+	text-align: left;
+	border: 1px solid gray;
+	/*opacity:0.5;*/
+	padding:12px;
+	z-index:3;
+	background-color: rgba(255, 255, 255, 0.4);
+}
+.main .about .about-center .word .word-con .word-conn{
+	font-size:12px;
+	color:#000;
+	line-height:20px;
+	/*font-weight:bolder;*/
+	font-family: 'Microsoft YaHei UI';
+}
+/*怎么设置按钮不受透明度影响？？？*/
+.main .about .about-center .word .word-con .bt button{
+	width:80px;
+	height: 40px;
+	margin-top: 12px;
+	color: #fff;
+	/*margin:12px 89px;*/
+	border:0;/*清除按钮默认的边框大小*/
+	background-color: #000;
+}
+.main .about .about-center .word .word-con .bt button:hover{
+	color:#000;
+	background-color: #fff;
+	border:2px solid #000;
+}
+.main .about .about-center .word .layer{
+	position:absolute;
+	top:102px;
+	width: 266px;
+	height: 186px;
+	opacity:0.5;
+	background-color: #fff;
+	z-index:2;
+}
+.main .about .about-center .charts{
+	width: 200px;
+	height:;
+	float: right;
+	/*设置relative导致有空白*/
+	/*position:relative;
+	top:-318px;
+	right:160px;*/
+	position:absolute;
+	top:80px;
+	right:160px;
+}
+.main .about .about-center .charts .chart{
+	border:1px solid #07cbc9;
+	text-align: center;
+	margin:12px;
+	height:100px;
+	padding-top: 12px;
+}
+.main .about .about-center .charts .chart .num{
+	font-size:24px;
+	font-weight: bold;
+}
+.main .about .about-center .charts .chart .tp{
+	font-size:16px;
+}
+.main .about .about-center .charts .chart hr{
+	height: 1px;
+	background-color: #07cbc9;
+	width:24px;
+	margin:12px;
+}
+
+
+/*
+*
+主体部分的第二部分的底部的样式
+*
+*/
+/*这里导致宽度超出了body的宽度，溢出了？？？主要是设置宽度100%时又有外边距导致超出祖先元素的宽度*/
+.main .about .about-bottom{
+	width: 100%;
+	/*height:600px;*/
+	margin:24px 0;/*设置了外边距还是跟上部分没有边距*/
+	overflow: hidden;
+}
+.main .about .about-bottom .connent{
+	width:100%;
+	/*height:300px;*/
+	height: 396px;
+	/*去掉做外边距，使其宽度铺满可以给里边的文字单独设置边距，来保证它们之间的距离
+	margin-left:73px;*/
+	overflow: hidden;
+}
+.main .about .about-bottom .connent div{
+	width:25%;
+	float:left;
+}
+.main .about .about-bottom .connent img{
+	width:100%;
+	/*width:300px;
+	height:300px;*/
+	height:396px;
+}
+.main .about .about-bottom  .connent .bottom-con{
+	/*width: 268px;*/
+	width:25%;
+	/*height: 268px;*/
+	height:396px;
+	text-align: left;
+	overflow: hidden;
+	/*padding:16px;*/
+	color:#fff;
+	background-color: #07cbc9;
+}
+.main .about .about-bottom .connent .bottom-con .tit{
+	/*这里是为了防止标题等文字也变成25%的宽度;*/	
+	width:100%;
+	/*添加内边距;*/
+	padding:16px;
+	font-size:30px;
+	text-align: left;
+	font-weight:bolder;
+}
+.main .about .about-bottom .connent .bottom-con .connent1{
+	/*width:100%;*/
+	width:300px;
+	padding:16px;
+	font-size: 16px;
+	margin:12px 0;
+}
+.main .about .about-bottom .connent .bottom-con .connent2{
+	/*width:100%;*/
+	width:300px;
+	padding:16px;
+	font-size: 8px;
+	color:gray;
+}
+.main .about .about-bottom .connent .bottom-con .bt{
+	width:268px;
+	/*margin:0 auto;*//*按钮的父元素使用了margin却无法居中？？？*/
+}
+.main .about .about-bottom .connent .bottom-con .bt button{
+	width:90px;
+	height: 45px;
+	color: #fff;
+	margin:12px 118px;/*设置外边距不太精准*/
+	border:0;/*清除按钮默认的边框大小*/
+	background-color: #000;
+}
+.main .about .about-bottom .connent .bottom-con .bt button:hover{
+	color:#fff;
+	background: none;
+	border:2px solid #000;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>position-relative</title>
+    <link rel="stylesheet" href="./reset.css">
+    <style>
+        /*让B脱离常规流*/
+        .block {
+            width: 80px;
+            height: 80px;
+            line-height: 80px;
+            text-align: center;
+            border: 2px solid blue;
+        }
+        .block:nth-child(2){
+            position:absolute;
+            border-color: red;
+            top:20px;
+            left:20px;
+            width:50%;/*设置百分比时是根据最近定位祖先元素来的，这里没有最近定位祖先元素故，认body为爹爹*/
+            height: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="block">
+        A
+    </div>
+    <div class="block">
+        B
+    </div>
+    <div class="block">
+        C
+    </div>
+</body>
+</html>

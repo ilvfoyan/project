@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)https://class.imooc.com/lesson/429 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title>Document</title>
+  <style>
+    *{
+      margin: 0;
+      padding:0;
+    }
+    .test{
+     width: 800px;
+     height: 100px;
+     background: red;
+     /*此处写代码*/
+     position:fixed;
+     left:50%;    /*关于“为什么要设置左边50%”，直接设置margin-left在浏览器展示内容宽度发生变化之后，元素的位置会发生变化，不能保证居中显示*/
+     margin-left:-400px;
+   }
+   .out{
+    width: 100%;
+    height: 2000px;
+    background-color: #abcdef;
+  }
+</style>
+</head>
+<body>
+  <div class="out">
+    <div class="test"></div>
+  </div>
+
+
+</body></html>

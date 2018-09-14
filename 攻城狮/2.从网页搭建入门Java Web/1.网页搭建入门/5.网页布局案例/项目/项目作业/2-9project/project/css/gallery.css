@@ -1,0 +1,65 @@
+/*
+*
+*主体部分的第三部分的顶部的样式
+*
+*/
+.main .gallery{
+	width:100%;
+	/*height: 500px;*/
+}
+.main .gallery .gallery-top{
+	
+}
+.main .gallery .gallery-top .top-title{
+	font-size: 36px;
+	text-align: center;
+	font-weight: bolder;
+}
+/*除了使用<center><hr></center>外，有什么好办法让hr居中？？？*/
+.main .gallery .gallery-top hr{
+	height: 1px;
+	background-color: #07cbc9;
+	width:24px;
+	margin:12px;
+}
+.main .gallery .gallery-top .top-con{
+	text-align: center;
+	color:gray;
+	margin-bottom: 24px;
+}
+
+
+
+/*
+*
+主体部分的第三部分的底部的样式
+*
+*/
+.main .gallery .gallery-bottom{
+	width: 1224px;
+	height:720px;
+	margin:0 auto;
+	overflow: hidden;
+}
+.main .gallery .gallery-bottom .bottom-con{
+	width:100%;
+	height:360px;
+	overflow: hidden;
+}
+.main .gallery .gallery-bottom .bottom-con .con{
+	float:left;
+	margin:0 24px;
+}
+.main .gallery .gallery-bottom .bottom-con .con img{
+	width:360px;
+	height:240px;
+	display:block;
+}
+.main .gallery .gallery-bottom .bottom-con .con .label{
+	font-size: 16px;
+	height: 60px;
+	line-height: 60px;
+	padding-left: 16px;
+	color:#fff;
+	background-color: #000;
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="D:/360安全浏览器下载/sqljdbc4-2.0.jar/sqljdbc4-2.0.jar"/>
+	<classpathentry kind="lib" path="E:/personalfile/软件安装包/JSONObject所需jar包/json-lib-2.4-jdk15.jar"/>
+	<classpathentry kind="lib" path="E:/personalfile/软件安装包/JSONObject所需jar包/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="E:/personalfile/软件安装包/JSONObject所需jar包/commons-beanutils/commons-beanutils-1.9.3.jar"/>
+	<classpathentry kind="lib" path="E:/personalfile/软件安装包/JSONObject所需jar包/commons-collections/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="E:/personalfile/软件安装包/JSONObject所需jar包/commons-lang/commons-lang3-3.7.jar"/>
+	<classpathentry kind="lib" path="E:/personalfile/软件安装包/JSONObject所需jar包/ezmorph/ezmorph-1.0.6.jar"/>
+	<classpathentry kind="lib" path="E:/personalfile/软件安装包/JSONObject所需jar包/commons-httpclient-3.1.jar"/>
+	<classpathentry kind="lib" path="E:/personalfile/软件安装包/JSONObject所需jar包/flexjson-2.1.jar"/>
+	<classpathentry kind="lib" path="E:/personalfile/软件安装包/JSONObject所需jar包/jackson-all-2.8.0.jar"/>
+	<classpathentry kind="lib" path="E:/personalfile/软件安装包/JSONObject所需jar包/jackson-core-2.7.0.jar"/>
+	<classpathentry kind="lib" path="E:/personalfile/软件安装包/JSONObject所需jar包/commons-lang/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="E:/personalfile/软件安装包/JSONObject所需jar包/commons-collections/commons-collections-3.2.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="WebContent/WEB-INF/classes"/>
+</classpath>

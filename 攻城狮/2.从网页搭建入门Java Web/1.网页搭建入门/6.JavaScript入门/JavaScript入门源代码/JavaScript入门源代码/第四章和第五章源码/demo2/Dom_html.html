@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Dom html</title>
+</head>
+<body>
+	<div id="main" data="nihao">123</div>
+
+	<img src="1.jpg" id="image" />
+
+	<a id="goUrl" href="">调到百度</a>
+	<script type="text/javascript">
+		var main = document.getElementById("main");
+		main.innerHTML= 'helloWorld';//将原本的值123改为helloWorld
+
+		/**
+		 *		element.getAttribute()
+				element.setAttribute()   // 添加或者修改属性
+				element.src 		//主要针对于image，将img的src值修改
+				element.href  		//将a属性href修改值
+
+		 * 
+		 */
+		
+		alert(main.getAttribute("data"));//打印获得的data属性值
+
+		main.setAttribute("data", "buhao");
+		main.setAttribute("dd", "ddname");
+
+		var image = document.getElementById("image");
+		image.src = "2.jpg";
+
+		var goUrl = document.getElementById("goUrl");
+		goUrl.href = "http://www.baidu.com"
+	</script>
+</body>
+</html>

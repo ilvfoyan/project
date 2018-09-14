@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>编程练习</title>
+   <style type="text/css">
+     html,body {
+            margin: 0;
+            padding: 0;
+      }
+   
+     header {
+            background-color: black;
+            height: 70px;
+            text-align: right;
+            background-image: url("http://climg.mukewang.com/59093e9c00016ce303000100.png");
+            background-repeat: no-repeat;
+            background-size: 200px;
+            background-position: center left;
+            line-height: 70px;
+      }
+      .content {
+            background-color:lightcoral;
+            height: 500px;
+        }
+      footer {
+            background-color: black;
+            height: 70px;
+            text-align: center;        
+            line-height: 70px;
+      }
+      .content nav {
+            background: lightblue;
+            height: 100%;
+            width: 33%;
+            float: left;
+            font-size: 16px;
+             font-family: 微软雅黑;
+        }
+      .content aside{
+            background: lightblue;
+            height: 100%;
+            width: 33.5%;
+            float: left;
+            /*margin-left: 500px;
+            margin-right: 410px;*/
+            font-size: 16px;
+             font-family: 微软雅黑;
+      }
+      .content article{
+            background: lightblue;
+            height: 100%;
+            width: 33%;
+            float:right;
+            font-size: 16px;
+      }
+      #t1{
+        background: lightcoral;
+        text-align: center;
+         font-family: 微软雅黑;
+      }
+      nav table{
+         margin: 130px auto;
+         line-height: 30px;
+         font-family: 微软雅黑;
+      }
+      aside div{
+         margin: 130px auto;
+         line-height: 30px;
+          font-family: 微软雅黑;
+      }
+      article div{
+         margin: 130px auto;
+         margin-left: 80px;
+         line-height: 30px;
+          font-family: 微软雅黑;
+      }
+      #t2 {
+            font-weight: bolder;
+            font-size: 17px;
+            line-height: 40px;
+             font-family: 微软雅黑;
+        }
+     span {
+            margin-right: 15px;
+            line-height: 30px;
+             font-family: 微软雅黑;
+        }
+      .t5{
+            width: 260px;
+            height: 40px;
+            font-family: 微软雅黑;
+      }
+       #t6{
+            width: 260px;
+            height: 40px;
+            background-color: red;
+            font-family: 微软雅黑;
+            font-size: 15px;
+      }
+      a{
+        margin-right: 30px;
+            color: white;
+            text-decoration: none;
+      }
+      th{
+         font-weight: bolder;
+        font-size: 17px;
+        line-height: 40px;
+        font-family: 微软雅黑;
+      }
+   </style>
+</head>
+<body>
+  <header>
+    <a href="#">课程</a>
+    <a href="#">职业路径</a>
+    <a href="#">实战</a>
+    <a href="#">猿问</a>
+    <a href="#">手记</a>
+  </header>
+  <div class="content">
+    <nav>
+      <table>
+        <tr>
+          <th>课程推荐</th>
+        </tr>
+        <tr>
+          <td id="t1">职业路径</td>
+          <td>HTML5与CSS3实现动态网页</td>
+        </tr>
+        <tr>
+          <td id="t1">职业路径</td>
+          <td>零基础入门Android语法与界</td>
+        </tr>
+        <tr>
+          <td id="t1">职业路径</td>
+          <td>IOS基础语法与常用控件</td>
+        </tr>
+        <tr>
+          <td id="t1">职业路径</td>
+          <td>PHP入门开发</td>
+        </tr>
+        <tr>
+          <td id="t1">职业路径</td>
+          <td>JAVA入门开发</td>
+        </tr>
+      </table>
+    </nav>
+    <aside>
+      <div>
+        <span id="t2">相关课程</span>
+        <br>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <br>
+        <span>HTML5</span>
+        <span>CSS3</span>
+        <span>Jquery</span>
+        <br>
+        <span>移动端基础</span>
+        <span>移动端APP开发</span>
+      </div>
+    </aside>
+    <article>
+      <div>
+        <span id="t2">登录</span>
+        <br>
+        <input class="t5" type="text" placeholder="请输入登录邮箱/手机号" />
+        <br>
+        <br>
+        <input class="t5" type="password" placeholder="6-16位密码，区分大小写，不能用空格" />
+        <br>
+        <br>
+        <input id="t6" type="button" value="登录" />
+      </div>
+    </article>
+  </div>
+  <footer>
+        <a href="#">网站首页</a>
+        <a href="#">企业合作</a>
+        <a href="#">人才招聘</a>
+        <a href="#">联系我们</a>
+        <a href="#">常见问题</a>
+        <a href="#">友情连接</a>
+</footer>
+</body>
+</html>

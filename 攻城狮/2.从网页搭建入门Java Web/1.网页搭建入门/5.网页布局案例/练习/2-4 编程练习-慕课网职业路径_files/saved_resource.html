@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)https://class.imooc.com/lesson/430 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    	
+	<title>CSS布局</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding:0;
+		}
+		img{
+			width: 380px;
+			height: 240px;
+			/*添加以下属性可以去除白边*/
+            display:block;
+		}
+		/*此处写代码*/
+		.div2{
+		    width:380px;
+		    height:240px;
+		    /*position:absolute;*/
+		    /*top:0;*/
+		    /*什么情况下使用绝对定位还是相对定位？？？*/
+		    position:relative;
+		    top:-240px;
+		    background-color:black;
+		    opacity:0.5;
+		    z-index:1;
+		}
+	</style>
+</head>
+<body>
+<nav>
+</nav>
+	<div class="div1"><!--这里怎么下边还有空白-->
+		<img src="./58f829ca00010be703840240.jpg">
+	</div>
+	<!-- 此处写代码 -->
+	<div class="div2"></div>
+
+</body></html>

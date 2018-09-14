@@ -1,0 +1,14 @@
+/*
+*
+*尾部的样式
+*
+*/
+footer{
+	width:100%;
+	height:80px;
+	line-height: 80px;
+	text-align: center;
+	font-size: 18px;
+	color:#fff;
+	background-color: #07cbc9;
+}

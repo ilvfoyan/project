@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>3-1、Float案例演示</title>
+	<style>
+		*{
+			margin:0;
+			padding:0;
+		}
+		header{
+			width:100%;
+			/*height:80px;/*可以不设，让其高度由内容撑起来*/
+			background-color: gray;
+			overflow: hidden;
+		}
+		header div{
+			margin:31px;
+			float:right;
+			font-size: 16px;
+			font-family: '微软雅黑'
+		}
+		span{
+			margin:25px;
+		}
+		.div2{
+			height:400px;
+		}
+		img{
+			float:left;
+		}
+		a{
+			text-decoration:none;
+		}
+		a:link{
+			color:black;
+		}
+		a:hover{
+			color:white;
+		}
+		a:active{
+			color:orange;
+		}
+		a:visited{
+			color:blue;
+		}
+		nav{
+			float:left;
+			width:1000px;
+			height:100%;
+			color:white;
+			background-color: blue;
+		}
+		article{
+			height:100%;
+			color:#fff;
+			background-color: orange;
+		}
+		footer{
+			height:100px;
+			color:#fff;
+			background-color: red;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<a href="http://www.imooc.com" target="_blank"><img src="../float源码/img/logo.png"/></a>
+		<div>
+			<a href="#"><span>免费课程</span></a>
+			<a href="#"><span>职业路径</span></a>
+			<a href="#"><span>实战</span></a>
+			<a href="#"><span>猿问</span></a>
+			<a href="#"><span>手记</span></a>
+		</div>
+	</header>
+	<div class="div2">
+		<nav>content</nav>
+		<article>sidebar</article>
+	</div>
+	<footer>
+		footer
+	</footer>
+</body>
+</html>

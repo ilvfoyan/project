@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>change-to-flex</title>
+    <link rel="stylesheet" href="./reset.css">
+    <style>
+        .block {
+            /*position: static;
+            top:10px;*/
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            border: 2px solid blue;
+            /*box-sizing: border-box;*/
+        }
+        /*若把左右外边距设置为auto，则左右外边距会自动扩大占满剩余宽度，造成效果是这个块水平居中*/
+        .block:nth-child(1){
+            margin:0 auto;
+            border-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="block">
+        A
+    </div>
+    <div class="block">
+        B
+    </div>
+    <div class="block">
+        C
+    </div>
+    <div class="block">
+        D
+    </div>
+</body>
+</html>
