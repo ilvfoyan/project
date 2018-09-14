@@ -1,0 +1,18 @@
+1、table如何展示表格大小，设置td的width属性值的影响？
+
+2、某一行的单元格大小是为该行单元格大小最大的那一个？
+
+3、footer中设置center却不是在中间？
+
+4、如何区分内外边距？是相对于谁的？      
+   参考资料：https://www.cnblogs.com/chenluomenggongzi/p/5195520.html
+   测试：E:\personalfile\攻城狮\从网页搭建入门Java Web\网页搭建入门\CSS入门\CSS入门源代码\练习\margin_padding.html
+
+5、float浮动视频内容重复理解！
+
+6、设置垂直上居中：
+   测试：E:\personalfile\攻城狮\从网页搭建入门Java Web\网页搭建入门\float浮动\float源码\练习\2-5choose.html
+
+7、网络布局案例视频内容重复理解！
+
+8、
